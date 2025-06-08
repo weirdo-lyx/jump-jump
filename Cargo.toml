@@ -7,3 +7,6 @@ edition = "2021"
 bevy_hanabi = "0.14"
 rand = "0.8"
 bevy = { version = "0.15", features = ["mp3"]}
+
+[lib]
+crate-type = ["cdylib", "rlib"]  # 必须包含 cdylib
